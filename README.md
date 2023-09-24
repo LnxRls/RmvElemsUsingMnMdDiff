@@ -241,7 +241,9 @@ Use this space to list resources you find helpful and would like to give credit 
 [issues-shield]: https://img.shields.io/github/issues/LnxRls/RmvElemsUsingMnMdDiff.svg?style=for-the-badge
 [issues-url]: https://github.com/LnxRls/RmvElemsUsingMnMdDiff/issues
 [license-shield]: https://img.shields.io/github/license/LnxRls/RmvElemsUsingMnMdDiff.svg?style=for-the-badge
-[license-url]: [![MIT License][license-shield]][license-url]
+[license-url]: https://github.com/LnxRls/RmvElemsUsingMnMdDiff/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/LnxRls
 [product-screenshot]: images/screenshot.png
 [Python-shield]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
 [Python-url]: https://www.python.org/
