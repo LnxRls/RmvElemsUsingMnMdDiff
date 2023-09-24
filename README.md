@@ -25,7 +25,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/LnxRls/RmvElemsUsingMnMdDiff">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/logo.png" alt="Logo" width="1000" height="1000">
   </a>
 
   <h3 align="center">Best-README-Template</h3>
@@ -60,7 +60,7 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        ``` <li><a href="#installation">Installation</a></li> ```
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -79,16 +79,11 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+This short project is based on the simple idea to remove data elements (not only outliers) from a vector of real numbers, one at a time, based on the re-calculated absolute difference of median and mean values in order to reduce any unnecessary skewness from the results, for the sake of more accurate further statistical study per analyst's judgment.    
 
 Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
+* Sometimes we deal with numbers that don't necessarily stem from a process that follows a specific distribution, so the definition and removal of outliers is arbitrary and not based to the box-whisker concept    
+* Detect whether there's a threshold beyond which the abs(diff(mean, median)) would either fluctuate about some value or it'll keep on dropping until the vector is left only with its last 2 elements 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -96,7 +91,7 @@ Use the `BLANK_README.md` to get started.
 
 ### Built With
 
-It was developed using VS Code version: 1.74.3 on Python 3.11.5
+VS Code version: 1.74.3 on Python 3.11.5
 
 * [![Python][Python-shield]][Python-url]
 * ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
@@ -112,7 +107,7 @@ This body of code should run as is.
 
 ### Prerequisites
 
-The only Python package prerequisites are pip, os, importlib 
+The Python package prerequisites are pip, os, importlib 
   ```
   import pip, os, importlib
   ```
@@ -125,7 +120,7 @@ _Below is an example of how to instruct the audience how to install and set up t
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/your_username_here/Project-Name.git
    ```
 3. Install NPM packages
    ```sh
@@ -143,9 +138,9 @@ _Below is an example of how to instruct the audience how to install and set up t
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+We present screenshots of 3 runs. The top pair of graphs had a threshold of 5 and the bottom 2 pairs a threshold of 0. 
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+![alt text](/images/RandomRun1.png "Graphs with Threshold = 5")
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
