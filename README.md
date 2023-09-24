@@ -45,8 +45,7 @@
         ``` <li><a href="#installation">Installation</a></li> ```
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#usage">Results</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -98,7 +97,13 @@ The Python package prerequisites are pip, os, importlib
 We present screenshots of 3 runs. The top pair of graphs had a threshold of 5 and the bottom 2 pairs a threshold of 0. 
 
 ![alt text](/images/RandomRun1.png "Graphs with Threshold = 5")
+
+<hr>
+
 ![alt text](/images/RandomRun2.png "Graphs with Threshold = 0")
+hr.dotted {
+  border-top: 3px dotted #bbb;
+}
 ![alt text](/images/RandomRun3.png "Graphs with Threshold = 0")
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
