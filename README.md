@@ -1,10 +1,8 @@
-```
 <!-- Improved compatibility of back to top link: See: https://github.com/LnxRls/RmvElemsUsingMnMdDiff/pull/73 -->
 <a name="readme-top"></a>
 <!--
 *** This is an MD README Template.
 -->
-```
 
 
 <!-- PROJECT SHIELDS -->
@@ -26,7 +24,7 @@
 <!-- PROJECT  -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/LnxRls/RmvElemsUsingMnMdDiff">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -110,7 +108,7 @@ It was developed using VS Code version: 1.74.3 on Python 3.11.5
 <!-- GETTING STARTED -->
 ## Getting Started
 
-The cod should run as is.  
+This body of code should run as is.  
 
 ### Prerequisites
 
