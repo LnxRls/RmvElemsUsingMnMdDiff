@@ -24,12 +24,12 @@
 <!-- PROJECT  -->
 <br />
 <div align="center">
-  ![alt text](https://github.com/LnxRls/RmvElemsUsingMnMdDiff/blob/main/images/logo.png?raw=true)
+  ![Alt text](https://github.com/LnxRls/RmvElemsUsingMnMdDiff/blob/main/images/logo.png?raw=true)
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Data Element Removal Process</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
