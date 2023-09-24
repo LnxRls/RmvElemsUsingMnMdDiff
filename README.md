@@ -24,7 +24,7 @@
 <!-- PROJECT  -->
 <br />
 <div align="center">
-  ![Alt text](https://github.com/LnxRls/RmvElemsUsingMnMdDiff/blob/main/images/logo.png?raw=true)
+  ![Alt text](https://github.com/LnxRls/RmvElemsUsingMnMdDiff/blob/main/images/logo.png)
 
   <h3 align="center">Data Element Removal Process</h3>
 
