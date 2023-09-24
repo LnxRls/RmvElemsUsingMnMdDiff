@@ -59,8 +59,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
 This short project is based on the simple idea to remove data elements (not only outliers) from a vector of real numbers, one at a time, based on the re-calculated absolute difference of median and mean values in order to reduce any unnecessary skewness from the results, for the sake of more accurate further statistical study per analyst's judgment.    
 
 Here's why:
@@ -85,7 +83,7 @@ VS Code version: 1.74.3 on Python 3.11.5
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This body of code should run as is.  
+This body of code should run as is, no installation is required.  
 
 ### Prerequisites
 
@@ -94,53 +92,18 @@ The Python package prerequisites are pip, os, importlib
   import pip, os, importlib
   ```
 
-```
-### Installation
-
-_Below is an example of how to instruct the audience how to install and set up the code. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_here/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-```
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
+<!-- RESULTS EXAMPLES -->
+## Results
 
 We present screenshots of 3 runs. The top pair of graphs had a threshold of 5 and the bottom 2 pairs a threshold of 0. 
 
 ![alt text](/images/RandomRun1.png "Graphs with Threshold = 5")
-
+![alt text](/images/RandomRun2.png "Graphs with Threshold = 0")
+![alt text](/images/RandomRun3.png "Graphs with Threshold = 0")
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-```
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
-```
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/LnxRls/RmvElemsUsingMnMdDiff/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
