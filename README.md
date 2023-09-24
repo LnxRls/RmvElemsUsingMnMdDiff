@@ -24,7 +24,7 @@
 <!-- PROJECT  -->
 <br />
 <div align="center">
-  ![alt text](https://github.com/LnxRls/RmvElemsUsingMnMdDiff/images/logo.jpg?raw=true "Title")
+  ![alt text](https://github.com/LnxRls/RmvElemsUsingMnMdDiff/tree/main/images/logo.jpg?raw=true "Title")
 
   <h3 align="center">Best-README-Template</h3>
 
