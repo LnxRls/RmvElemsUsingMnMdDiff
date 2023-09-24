@@ -20,28 +20,12 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
+<!-- PROJECT -->
 
-<!-- PROJECT  -->
-![Alt text](https://github.com/LnxRls/RmvElemsUsingMnMdDiff/blob/main/images/logo.png)
-<br />
-<div align="center">
-
-  <h3 align="center">Data Element Removal Process</h3>
-
-  <p align="center">
-    
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
-  </p>
-</div>
-
+<!-- <br /> -->
+<!-- <div align="center"> -->
+<!--  <a href="#about-the-project">About The Project</a> -->
+<!-- </div> -->
 
 
 <!-- TABLE OF CONTENTS -->
