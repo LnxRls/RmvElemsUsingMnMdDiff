@@ -98,12 +98,16 @@ We present screenshots of 3 runs. The top pair of graphs had a threshold of 5 an
 
 ![alt text](/images/RandomRun1.png "Graphs with Threshold = 5")
 
-<hr>
+<html>
+  <hr>
+</html>
 
 ![alt text](/images/RandomRun2.png "Graphs with Threshold = 0")
-hr.dotted {
-  border-top: 3px dotted #bbb;
-}
+
+<html>
+  <hr>
+</html>
+
 ![alt text](/images/RandomRun3.png "Graphs with Threshold = 0")
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
