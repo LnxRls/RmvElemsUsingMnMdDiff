@@ -62,7 +62,7 @@ This short project is based on the simple idea to remove data elements (not only
 
 Here's why:
 * Sometimes we deal with numbers that don't necessarily stem from a process that follows a specific distribution, so the definition and removal of outliers is arbitrary and not based to the box-whisker concept    
-* Detect whether there's a threshold beyond which the abs(diff(mean, median)) would, either fluctuate about some value without changing much, with further data element elimination, or it'll keep on dropping until the vector is left only with its last 2 elements 
+* Detect whether there's a threshold beyond which the abs(diff(mean, median)) would, either fluctuate about some value without changing much (Case 3), as data element elimination continues, or it'll keep on dropping until the vector is left only with its last 2 elements (Case 1)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
