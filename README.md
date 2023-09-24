@@ -140,7 +140,7 @@ _Below is an example of how to instruct the audience how to install and set up t
 
 We present screenshots of 3 runs. The top pair of graphs had a threshold of 5 and the bottom 2 pairs a threshold of 0. 
 
-![alt text](Isolated.png "Title")
+![alt text](/images/RandomRun1.png "Graphs with Threshold = 5")
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
