@@ -62,7 +62,7 @@ This short project is based on the simple idea to remove data elements (not only
 
 Here's why:
 * Sometimes we deal with numbers that don't necessarily stem from a process that follows a specific distribution, so the definition and removal of outliers is arbitrary and not based to the box-whisker concept    
-* Detect whether there's a threshold beyond which the abs(diff(mean, median)) would either fluctuate about some value or it'll keep on dropping until the vector is left only with its last 2 elements 
+* Detect whether there's a threshold beyond which the abs(diff(mean, median)) would, either fluctuate about some value without changing much, with further data element elimination, or it'll keep on dropping until the vector is left only with its last 2 elements 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -96,17 +96,21 @@ The Python package prerequisites are pip, os, importlib
 
 We present screenshots of 3 runs. The top pair of graphs had a threshold of 5 and the bottom 2 pairs a threshold of 0. 
 
+<body>
+    <h2>Case 1</h2>
+</body>
+
 ![alt text](/images/RandomRun1.png "Graphs with Threshold = 5")
 
-<html>
-  <hr>
-</html>
+<body>
+    <h2>Case 2</h2>
+</body>
 
 ![alt text](/images/RandomRun2.png "Graphs with Threshold = 0")
 
-<html>
-  <hr>
-</html>
+<body>
+    <h2>Case 3</h2>
+</body>
 
 ![alt text](/images/RandomRun3.png "Graphs with Threshold = 0")
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
