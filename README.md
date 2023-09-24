@@ -60,7 +60,7 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        ``` <li><a href="#installation">Installation</a></li> ```
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -91,7 +91,7 @@ Here's why:
 
 ### Built With
 
-It was developed using VS Code version: 1.74.3 on Python 3.11.5
+VS Code version: 1.74.3 on Python 3.11.5
 
 * [![Python][Python-shield]][Python-url]
 * ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
@@ -107,7 +107,7 @@ This body of code should run as is.
 
 ### Prerequisites
 
-The only Python package prerequisites are pip, os, importlib 
+The Python package prerequisites are pip, os, importlib 
   ```
   import pip, os, importlib
   ```
@@ -120,7 +120,7 @@ _Below is an example of how to instruct the audience how to install and set up t
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/your_username_here/Project-Name.git
    ```
 3. Install NPM packages
    ```sh
@@ -138,9 +138,9 @@ _Below is an example of how to instruct the audience how to install and set up t
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+We present screenshots of 3 runs. The top pair of graphs had a threshold of 5 and the bottom 2 pairs a threshold of 0. 
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+![alt text](Isolated.png "Title")
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
