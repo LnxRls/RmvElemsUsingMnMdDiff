@@ -57,14 +57,14 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This short project is based on the simple idea to remove data elements (not only outliers) from a vector of real numbers, one at a time, based on the re-calculated absolute difference of median and mean values in order to reduce any unnecessary skewness from the results, for the sake of more accurate further statistical study per analyst's judgment.    
+This short project is based on the simple idea to remove data elements (not only outliers) from a vector of real numbers, one at a time, based on the re-calculated absolute difference of median and mean values in order to reduce any unnecessary skewness from the results, for the sake of more accurate further statistical study if that's what the analyst's judgment dictates.    
 
 Here's why:
-* Sometimes we deal with numbers that don't necessarily stem from a process that follows a specific distribution, so the definition and removal of outliers is arbitrary and not based to the box-whisker concept    
+* Sometimes we deal with numbers that don't necessarily stem from a process that follows a specific distribution, so the definition and removal of outliers is arbitrary and not based on conventional methods such as the box-whisker    
 * Detect whether there's a threshold beyond which the abs(diff(mean, median)) would,
-  * either fluctuate around some value without changing much (Case 3), as data element elimination continues,
-  * it'll keep on dropping until the vector is left only with its last 2 elements (Case 1)
-  * or it'll be a combination of the above 2 cases (Case 2) 
+  * either fluctuate around some value (Case 3), as data element elimination continues,
+  * keep on dropping until the vector is left only with its last 2 elements (Case 1)
+  * be a combination of the above 2 cases (Case 2) 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
