@@ -96,7 +96,7 @@ The Python package prerequisites are pip, os, importlib
 <!-- RESULTS EXAMPLES -->
 ## Results
 
-We present screenshots of 3 runs. The top pair of graphs had a threshold of 5 and the bottom 2 pairs a threshold of 0. The pronounced red and green hexagons at the mean vs median plot show the first and last point of the graph. 
+We present screenshots of 3 runs. The top pair of graphs had a threshold of 5 and the bottom 2 pairs a threshold of 0. The pronounced red and green hexagons at the mean vs median plot show the first and last absolute differences during execution. 
 
 <body>
     <h2>Case 1</h2>
