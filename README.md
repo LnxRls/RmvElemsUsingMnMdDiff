@@ -98,21 +98,21 @@ The Python package prerequisites are pip, os, importlib
 
 We present screenshots of 3 runs. The top pair of graphs had a threshold of 5 and the bottom 2 pairs a threshold of 0. The pronounced red and green hexagons in the mean vs median plot show the first and last absolute differences during execution. 
 
-<body>
-    <h2>Case 1</h2>
-</body>
+${
+  \color{red} -\ Case\ 1
+}$
 
 ![alt text](/images/RandomRun1.png "Graphs with Threshold = 5")
 
-<body>
-    <h2>Case 2</h2>
-</body>
+${
+  \color{red} -\ Case\ 2
+}$
 
 ![alt text](/images/RandomRun2.png "Graphs with Threshold = 0")
 
-<body>
-    <h2>Case 3</h2>
-</body>
+${
+  \color{red} -\ Case\ 3
+}$
 
 ![alt text](/images/RandomRun3.png "Graphs with Threshold = 0")
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
