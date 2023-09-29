@@ -156,7 +156,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <!-- Your Name Here - [@your_twitter](https://twitter.com/your_username) - email@example.com -->
 
-Project Link: [https://github.com/LnxRls/RmvElemsUsingMnMdDiff](https://github.com/LnxRls/RmvElemsUsingMnMdDiff)
+Github Project Link: [https://github.com/LnxRls/RmvElemsUsingMnMdDiff](https://github.com/LnxRls/RmvElemsUsingMnMdDiff)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
