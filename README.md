@@ -68,11 +68,11 @@ By examining how the absolute difference between the mean and median evolves wit
 ### *Key Analytical Insights*  
 The iterative elimination process helps identify whether the dataset exhibits one of the following behaviors:
 
-* Case 1 (Convergence to Minimal Elements): The absolute difference between mean and median monotonically decreases until only two elements remain  
-* Case 2 (Stabilization around a Threshold): The difference fluctuates around a near-constant value despite continued removals, suggesting residual structure in the data  
-* Case 3 (Hybrid Behavior): A combination of Cases 1 and 2, where an initial decline is followed by stabilization, indicating a transition in data structure  
+* Case 1 (Convergence to Minimal number of Data Elements): The absolute difference between mean and median decreases monotonically until only two elements remain  
+* Case 3 (Stabilization around a Threshold): The difference fluctuates around a near-constant value despite continued data element removals, suggesting residual structure in the data  
+* Case 2 (Hybrid Behavior): A combination of Cases 1 and 3, where an initial decline is followed by stabilization, indicating a transition in data structure  
 
-This method provides a data-driven alternative to conventional outlier removal, particularly useful in non-parametric or distribution-agnostic settings.
+This method provides a data-driven alternative to conventional outlier removal, particularly useful in non-parametric or distribution-agnostic situations.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
