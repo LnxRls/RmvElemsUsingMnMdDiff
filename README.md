@@ -116,13 +116,13 @@ ${
   \color{red} -\ Case\ 2
 }$
 
-![alt text](/images/RandomRun3.png "Graphs with Threshold = 0")
+![alt text](/images/RandomRun2.png "Graphs with Threshold = 0")
 
 ${
   \color{red} -\ Case\ 3
 }$
 
-![alt text](/images/RandomRun2.png "Graphs with Threshold = 0")
+![alt text](/images/RandomRun3.png "Graphs with Threshold = 0")
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
