@@ -57,14 +57,22 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This short project is based on the simple idea to remove data elements (not only outliers) from a vector of real numbers, one at a time, based on the re-calculated absolute difference of median and mean values in order to reduce any unnecessary skewness from the results, for the sake of more accurate further statistical study if that's what the analyst's judgment dictates.    
+*Iterative Data Refinement for Robust Statistical Analysis*
+This project introduces a systematic method for refining a vector of real numbers by iteratively removing data elements, not necessarily limited to conventional outliers, to minimize skewness and enhance the reliability of subsequent statistical analysis. The approach is based on dynamically recalculating the absolute difference between the median and mean after each removal, thereby progressively reducing excessive influence from disruptive data points. The decision to apply this method is subject to the analyst's judgement, and depends on the dataset’s characteristics and analytical objectives.
 
-Here's why:
-* Sometimes we deal with numbers that don't necessarily stem from a process that follows a specific distribution, so the definition and removal of outliers is arbitrary and not based on conventional methods such as the box-whisker    
-* Detect whether there's a threshold beyond which the abs(diff(mean, median)) would,
-  * either fluctuate around some value (Case 3), as data element elimination continues,
-  * keep on dropping until the vector is left only with its last 2 elements (Case 1)
-  * be a combination of the above 2 cases (Case 2) 
+*Motivation*
+Many real-world datasets do not adhere to well-defined probability distributions, making traditional outlier-detection methods (e.g., box-whisker plots, Z-scores) arbitrary or ineffective.
+
+By examining how the absolute difference between the mean and median evolves with sequential data removal, we can empirically determine an optimal threshold for refining the dataset.
+
+*Key Analytical Insights*
+The iterative elimination process helps identify whether the dataset exhibits one of the following behaviors:
+
+_Case 1 (Convergence to Minimal Elements): The absolute difference between mean and median monotonically decreases until only two elements remain.
+_Case 2 (Stabilization around a Threshold): The difference fluctuates around a near-constant value despite continued removals, suggesting residual structure in the data.
+_Case 3 (Hybrid Behavior): A combination of Cases 1 and 2, where an initial decline is followed by stabilization, indicating a transition in data structure.
+
+This method provides a data-driven alternative to conventional outlier removal, particularly useful in non-parametric or distribution-agnostic settings.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
