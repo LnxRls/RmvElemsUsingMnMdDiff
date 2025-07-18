@@ -58,14 +58,17 @@
 ## About The Project
 
 *Iterative Data Refinement for Robust Statistical Analysis*  
+
 This project introduces a systematic method for refining a vector of real numbers by iteratively removing data elements, not necessarily limited to conventional outliers, to minimize skewness and enhance the reliability of subsequent statistical analysis. The approach is based on dynamically recalculating the absolute difference between the median and mean after each removal, thereby progressively reducing excessive influence from disruptive data points. The decision to apply this method is subject to the analyst's judgement, and depends on the dataset’s characteristics and analytical objectives.
 
-*Motivation*
+*Motivation*  
+
 Many real-world datasets do not adhere to well-defined probability distributions, making traditional outlier-detection methods (e.g., box-whisker plots, Z-scores) arbitrary or ineffective.
 
 By examining how the absolute difference between the mean and median evolves with sequential data removal, we can empirically determine an optimal threshold for refining the dataset.
 
-*Key Analytical Insights*
+*Key Analytical Insights*  
+
 The iterative elimination process helps identify whether the dataset exhibits one of the following behaviors:
 
 *Case 1 (Convergence to Minimal Elements): The absolute difference between mean and median monotonically decreases until only two elements remain  
