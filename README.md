@@ -63,7 +63,7 @@ This project introduces a systematic method for refining a vector of real number
 ### *Motivation*  
 Many real-world datasets do not adhere to well-defined probability distributions, making traditional outlier-detection methods (e.g., box-whisker plots, Z-scores) arbitrary or ineffective.
 
-By examining how the absolute difference between the mean and median evolves with sequential data removal, we can empirically determine an optimal threshold for refining the dataset.
+By systematically analyzing the evolution of the absolute difference between the mean and median under sequential data removal, we can empirically identify an optimal stopping threshold for outlier exclusion, thereby enhancing the robustness and precision of the dataset.
 
 ### *Key Analytical Insights*  
 The iterative elimination process helps identify whether the dataset exhibits one of the following behaviors:
@@ -104,7 +104,7 @@ The Python package prerequisites are pip, os, importlib
 <!-- RESULTS EXAMPLES -->
 ## Results
 
-We present screenshots of 3 runs. The top pair of graphs had a threshold of 5 and the bottom 2 pairs a threshold of 0. The pronounced red and green hexagons in the mean vs median plot show the first and last absolute differences during execution. 
+We provide screenshots from three experimental runs. The top pair of graphs corresponds to a threshold value of 5, while the bottom two pairs were generated using a threshold of 0. In the mean vs. median comparison plot, the red and green hexagons indicate the initial and final absolute differences observed during execution, respectively. 
 
 ${
   \color{red} -\ Case\ 1
